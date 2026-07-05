@@ -151,6 +151,15 @@ Astronomical_Object_Classification_SDSS.ipynb
 - Deep learning approaches on raw astronomical images could also be explored.
 
 ---
+## Future Work: Photometry-Only Classification
+
+A future extension of this project would be to remove the redshift feature and evaluate model performance using only photometric measurements such as u, g, r, i, and z. Since redshift was identified as the dominant predictive feature, this experiment would test how well machine learning models can classify stars, galaxies, and quasars when spectroscopic information is unavailable.
+
+This would create a more challenging and realistic scenario, as many large-scale astronomical surveys contain photometric observations but may not always include reliable redshift measurements. Models such as Random Forest, XGBoost, and neural networks could be retrained using only photometric features, and their performance could be compared against the current redshift-inclusive model.
+
+This future work would help determine whether accurate astronomical object classification is possible using brightness and colour information alone, making the project more applicable to real-world survey conditions where spectroscopic data may be limited or expensive to obtain.
+
+---
 
 ## 📄 License
 
